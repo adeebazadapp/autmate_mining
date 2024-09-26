@@ -5,13 +5,6 @@ import uuid
 
 import requests
 import os
-import  urllib3
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-os.environ['http_proxy'] = "http://localhost:8888"
-os.environ['https_proxy'] = "http://localhost:8888"
-
-
-
 def self_call_compdata(gameVariants,lbStakes):
     url = "https://apis.pocket52.com/api/v1/leaderboard/campaigns/1724916257947/child"
     method = "get"

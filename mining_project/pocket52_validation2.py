@@ -142,17 +142,12 @@ for group in list_of_groups:
     # lobby = json_res.get('data')
     if json_res and json_res[0].get("scoreboard"):
         for i in json_res[0].get('scoreboard'):
-            # print i.get('campaignTag')
             # for j in i.get('scoreboard'):
             list_of_users.append(i.get('userId'))
 
 filtered_users = [user for user in list_of_users if user.startswith('105') and len(user) == 8]
 
-print len(list_of_users)
-print len(set(list_of_users))
-
-print set(filtered_users)
-print len(set(filtered_users))
+print (len(set(filtered_users)))
 
 
 def pocket52(unique_in_list):

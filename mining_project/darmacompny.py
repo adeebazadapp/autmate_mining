@@ -5,8 +5,6 @@ import requests
 import os
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-os.environ['http_proxy'] = "http://localhost:8888"
-os.environ['https_proxy'] = "http://localhost:8888"
 from mysql import connector as mysql
 def self_call_de_shiprocket (awb) :
     url = "https://shiprocket.co/pocx/tracking/{}".format(awb)

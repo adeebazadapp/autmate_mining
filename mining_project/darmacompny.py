@@ -82,7 +82,7 @@ def get_last_orderid():
 incrementId = 81008222089
 awb = get_last_orderid()
 
-print(awb)
+
 
 ids_list = []
 for i in range(200):

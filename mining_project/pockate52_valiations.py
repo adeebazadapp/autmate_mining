@@ -10,28 +10,30 @@ def self_call_compdata(gameVariants,lbStakes):
     method = "get"
 
     headers = {
-    "gk-device-id": "5eba84bafd15d4eb",
-    "gk-app-type": "CASH_APP",
-    "Accept-Encoding": "gzip",
-    "gk-android-id": "5eba84bafd15d4eb",
-    "gk-app-bundle-name": "215",
-    "gk-advertising-id": str(uuid.uuid4()),
-    "gk-is-rooted": "true",
-    "gk-platform": "android",
-    "gk-app-version-name": "12.5.1",
-    "gk-wifi-mac": "",
-    "gk-app-version": "215",
-    "x-request-id": "1727268721280",
-    "Cookie": "gk-device-id=d69ee878-9dd7-495e-ade2-28eaf51b13c4; session-id=898f1cb6-1ec4-4df1-9a2a-360669c0f402; gk-session-id=e0c4fa86-4c1e-4c5f-96b1-649ec178c65f",
-    "gk-device-name": "OnePlus ONEPLUS A6003",
-    "gk-app-signature": "8e58c7b24ed11b7c9f9f91db1b91cc225f829fe1a8e18382a202fa01ed39e26c",
-    "x-vendor-id": "1",
-    "gk-app-instance-id": "ab1a95d7ca32fb9357387ee128bc3e46",
-    "gk-app-codepush-label-name": "",
-    "gk-imei-id": "",
-    "gk-android-version": "11",
-    "User-Agent": "okhttp/4.10.0"
-    }
+ "gk-android-id": "5eba84bafd15d4eb", 
+ "gk-app-bundle-name": "219", 
+ "gk-platform": "android", 
+ "User-Agent": "okhttp/4.10.0", 
+ "x-request-id": "1729602484710", 
+ "gk-advertising-id": "f6d5dfc9-3bc5-49a1-ae2e-4b5976c6c018", 
+ "gk-is-rooted": "false", 
+ "gk-app-instance-id": "aeee1c781efab4bb309f485e15de4504", 
+ "gk-android-version": "11", 
+ "Cookie": "gk-device-id=d288b9ba-b3a1-4ff6-aa52-6d225ee8904a; session-id=716bc01b-8412-4dd7-83a8-b39c389ddd15; gk-session-id=e0c4fa86-4c1e-4c5f-96b1-649ec178c65f", 
+ "x-vendor-id": "1", 
+ "gk-app-signature": "8e58c7b24ed11b7c9f9f91db1b91cc225f829fe1a8e18382a202fa01ed39e26c", 
+ "authorization": "Bearer undefined", 
+ "gk-device-id": "5eba84bafd15d4eb", 
+ "vendor": "pocket52", 
+ "Accept-Encoding": "gzip", 
+ "gk-app-version-name": "12.6.3", 
+ "gk-imei-id": "", 
+ "gk-app-codepush-label-name": "", 
+ "gk-wifi-mac": "", 
+ "gk-app-type": "CASH_APP", 
+ "gk-app-version": "219", 
+ "gk-device-name": "OnePlus ONEPLUS A6003"
+}
 
     params = {'lbStakes':lbStakes, 'gameVariants': gameVariants}
 
